@@ -27,6 +27,7 @@ repository = "https://github.com/AccessKit/accesskit"
 rust-version = "1.87"
 
 [workspace.dependencies]
+winit = { version = "=0.31.0-beta.4", git = "https://github.com/Minuit-Ferina/winit", rev = "4a86bef75c12523283ec06134b5de15a563a009b", default-features = false }
 hashbrown = { version = "0.17", default-features = false, features = ["default-hasher"] }
 
 [profile.release]
